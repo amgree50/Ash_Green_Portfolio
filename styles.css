@@ -60,6 +60,6 @@ a:hover{
 @media screen and (min-width:600px) {
     .card-row{
         display:flex;
-        margin: 1.5rem;
+        margin: 1.5rem;  
     }
 }
