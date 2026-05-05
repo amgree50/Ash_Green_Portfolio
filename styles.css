@@ -57,9 +57,12 @@ a:hover{
     color:#393D3B;
     text-shadow: 1px 1px 5px #C2CFC7;
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:698px) {
     .card-row{
         display:flex;
         margin: 1.5rem;  
+    }
+    .card{
+        padding: 1.5rem;
     }
 }
