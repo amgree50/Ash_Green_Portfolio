@@ -8,6 +8,58 @@ charcoal= #393D3B
 */
 /* GLOBAL (base) MOBILE FIRST */
 
+@font-face {
+    font-family:"Papercut";
+    src: url(font/Papercut.otf);
+}
 body {
+    display:grid;
+    grid-template-columns: 1fr;
     background-color:#FAF1E8;
+    color:#393D3B;
+}
+h1{
+    font-family: Papercut;
+    font-size: calc(2rem + 3vw);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+header,footer{
+    background-color:#F7BECC;
+     text-align: center;
+}
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+     background-color:#C2CFC7;
+    padding:1rem;
+    font-size: calc(1rem + 1vw);
+}
+nav a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+    color: #393D3B;
+    text-shadow: 1px 1px 5px #FAF1E8; 
+}
+nav a:hover{
+    padding: 1rem;
+}
+a{
+     background-color:#C2CFC7;
+    padding:0.5rem;
+    text-decoration: none; 
+    color: #393D3B;
+    text-shadow: 1px 1px 5px #FAF1E8; 
+}
+a:hover{
+     background-color: #FAF1E8;
+    color:#393D3B;
+    text-shadow: 1px 1px 5px #C2CFC7;
+}
+@media screen and (min-width:600px) {
+    .card-row{
+        display:flex;
+        margin: 1.5rem;
+    }
 }
